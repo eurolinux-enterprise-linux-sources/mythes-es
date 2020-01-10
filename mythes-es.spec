@@ -2,7 +2,7 @@ Name: mythes-es
 Summary: Spanish thesaurus
 %define upstreamid 20130102
 Version: 0.%{upstreamid}
-Release: 1%{?dist}
+Release: 2%{?dist}
 Source: http://openthes-es.berlios.de/download/OOo2-thes_es_ES.tar.bz2
 Group: Applications/Text
 URL: http://openthes-es.berlios.de
@@ -51,6 +51,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20130102-2
+- Mass rebuild 2013-12-27
+
 * Thu Jan 31 2013 Caolán McNamara <caolanm@redhat.com> - 0.20130102-1
 - Resolves: rhbz#905972 latest version
 
